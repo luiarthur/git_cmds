@@ -1,0 +1,20 @@
+INITIALIZE:
+  Go to your directory, and type
+  $ git init
+
+TRACK / STAGE:
+  $ git add <filename>
+
+COMMIT:
+  $ git commit -m 'ADD A MESSAGE THAT DESCRBIES THE CHANGES YOU'VE MADE'
+
+TO STAGE & COMMIT SIMULTANEOUSLY:
+  $ git commit -a -m 'message'
+  # -a means add
+
+STATUS:
+  $ git status
+
+LOG:
+  $ git log -p -2
+  # -p for "PRINT DIFFERENCE"; -2 for "THE LAST TWO VERSIONS"
